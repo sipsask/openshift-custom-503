@@ -2,8 +2,8 @@
 
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
-mkdir -p ${OPENSHIFT_MAINTENANCE_PAGE_DIR}/run
-mkdir -p ${OPENSHIFT_MAINTENANCE_PAGE_DIR}/logs
+mkdir -p maintenance_page/run
+mkdir -p maintenance_page/logs
 
 client_result "Maintenance Page plugin was added successfuly to your application."
 client_result "If you want to customize the default page type this:"
