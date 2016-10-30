@@ -10,11 +10,11 @@ Versions:
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: startapp
 License: GPL
-Vendor: www.startapp.bg
+Vendor: www.fashionist-space.com
 Categories:
 - service
 - embedded
-Website: http://www.startapp.bg
+Website: http://www.fashionist-space.com
 Provides:
 - maintenance_page
 Scaling:
@@ -25,4 +25,4 @@ Group-Overrides:
   - maintenance_page
   - web_proxy
 
-Source-Url: https://github.com/mignev/openshift-cartridge-maintenance-page.git
+Source-Url: https://github.com/sipsask/openshift-custom-503.git

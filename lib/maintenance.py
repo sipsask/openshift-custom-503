@@ -32,7 +32,7 @@ PORT_NUMBER = os.getenv("OPENSHIFT_HAPROXY_PORT") \
                 or os.getenv("OPENSHIFT_JBOSSEWS_HTTP_PORT") \
                 or os.getenv("OPENSHIFT_DIY_PORT")
 
-PORT_NUMBER = int(PORT_NUMBER)
+PORT_NUMBER = 80
 
 class MaintenanceHandler(BaseHTTPServer.BaseHTTPRequestHandler):
     def do_GET(self):
